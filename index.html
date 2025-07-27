@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include Animate on Scroll (AOS) library CSS for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  <!-- AOS CSS CDN:contentReference[oaicite:2]{index=2} -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Riya Kerur | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <button id="theme-toggle">🌗 Toggle Theme</button>
+  <section class="hero">
+    <img src="logo.jpeg" alt="Riya Kerur" class="hero-img" />
+    <h1 class="hero-title">Riya Kerur</h1>
+    <p class="hero-subtitle">Embedded Systems | IoT Solutions | Real-Time Systems | Computer Vision</p>
+    <a href="Riya Kerur Resume.pdf" class="resume-button" download>📄 Download Resume</a>
+    <p style="margin-top: 1rem;">
+      <a href="https://github.com/RKerur2910?tab=repositories" target="_blank" style="color: #ffcb05; font-weight: bold;">🌐 My GitHub Portfolio</a>
+      <a href="https://www.linkedin.com/in/riya-kerur/" target="_blank" style="color: #ffcb05; font-weight: bold;">🌐 My LinkedIn</a>
+    </p>
+    <div class="scroll-nav">
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certification">Certification</a>
+      
+    </div>
+  </section>
+
+  <section id="experience" class="section timeline">
+    <h2 data-aos="fade-up">Professional Experience Timeline</h2>
+    <div class="timeline-container">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-content">
+          <h3>Arcasan Software Pvt Ltd – Junior Developer</h3>
+          <span>Oct 2023 – June 2024</span>
+          <p>Implemented WebP image format across front-end assets, reducing bandwidth usage and improving mobile performance. Built a modular customer analytics dashboard using Flask (Python) for logic and Spring Boot (Java) for backend services, with integrated RESTful APIs and real-time database operations. Defined and implemented technical specifications: designed database schemas, set access control rules, and documented RESTful interfaces, resulting in faster deployment cycles.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-content">
+          <h3>SmartKnower – Data Science Intern</h3>
+          <span>Jan 2022 – March 2022</span>
+          <p>Identified high-risk credit customers using unsupervised K-means clustering on 150k+ customer records, driving more informed risk segmentation. Delivered actionable insights to stakeholders by analyzing data trends with Python (Pandas, NumPy) and presenting clear EDA visuals. Recommended targeted marketing strategies based on model-driven insights with 87% clustering accuracy.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-content">
+          <h3>Visual Securities – Network Engineering Intern</h3>
+          <span>June 2021 – Sept 2021</span>
+          <p>Installed network switches and configured IP-based CCTV surveillance systems across Tata Motors’ assembly line after conducting on-site evaluations. Integrated IP cameras with Network Video Recorders (NVRs) via VLAN and SNMP routing, enabling secure, real-time mobile access. Strengthened remote surveillance security by implementing IP whitelisting and multifactor authentication, boosting system integrity by 15%.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I’m a graduate student pursuing my Masters in Computer Engineering at California State University, Sacramento. I specialize in building intelligent, real-time systems at the intersection of software, hardware, and data. My experience spans software development, embedded systems and computer vision. As a Junior Developer at Arcasan Software, I optimized front-end performance and built scalable analytics dashboards using Flask, Java, and REST APIs. At SmartKnower, I developed machine learning models to uncover trends in large-scale financial data and supported strategic decisions through data analysis. During my time at Visual Securities, I configured secure IP-based surveillance networks for industrial settings, gaining hands-on exposure to networking and IoT infrastructure. I’m skilled in tools and languages like Python, C++, Java, Flask, SQL, and frameworks including Streamlit, Dash, Scikit-learn, and Dlib. My interests lie in computer vision, edge computing, and intelligent IoT systems, and I’m always looking for opportunities where I can blend creativity with engineering.</p>
+  </section>
+
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">
+        <div class="skill-heading">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <h3>Python</h3>
+        </div>
+        <p>Pandas, NumPy, Scikit-learn, Dlib, Streamlit, Whisper</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-heading">
+          <img src="IOT_Logo.png" alt="SQL" />
+          <h3>IOT Systems</h3>
+        </div>
+        <p>Arduino, Raspberry Pi, MQTT Protocol, Real-Time Alert Systems</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-heading">
+          <img src="Computer_Vision.png" alt="SQL" />
+          <h3>Computer Vision</h3>
+        </div>
+        <p>OpenCV, Tensorflow, PyTorch, Facial Recognition, Image Classification</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>Project Showcase</h2>
+    <div class="project-container" data-aos="fade-up">
+      <div class="project-text">
+        <h3><a href="https://github.com/RKerur2910/Youtube-Video-Summarizer" target="_blank">Youtube Video Summarizer</a></h3>
+        <p><strong>April 2025 – May 2025</strong></p>
+        <p>Built a Streamlit-based web app that summarizes YouTube videos using Google Gemini LLM with Whisper as a fallback for audio transcription. Integrated a dual-mode transcription system to ensure complete video coverage, switching between YouTube captions and Whisper-based local transcription. Implemented input validation, text preprocessing, and prompt chunking to handle longer transcripts and ensure accurate summarization. Achieved real-time, multi-paragraph summaries through seamless Gemini API integration and robust NLP pipeline. Demonstrated full-stack development skills, combining LLMs, audio processing, and UI/UX design for end-to-end functionality.</p>
+       
+    <div class="project-container" data-aos="fade-up">
+      <div class="project-text">
+        <h3><a>Density Based Smart Traffic Light Controller</a></h3>
+        <p><strong>Jan 2025 – Feb 2025</strong></p>
+        <p>Designed and implemented a smart 4-way traffic controller that dynamically adjusts signal timings based on real-time vehicle density. Programmed adaptive traffic logic in Embedded C using Arduino IDE; integrated HC-SR04 ultrasonic sensors to detect vehicle presence. Developed signal-skipping algorithms to minimize idle time and optimize vehicle flow through intersections. Enabled real-time remote monitoring and control by integrating the system with the Blynk IoT platform. Improved traffic efficiency and responsiveness while demonstrating end-to-end IoT solution development skills.</p>
+
+      <div class="project-container" data-aos="fade-up">
+      <div class="project-text">
+        <h3><a href="https://github.com/RKerur2910/RFID-and-Computer-Vision-based-Secure-Access-Control-System" target="_blank">RFID and Computer Vision Based Secure Access Control System</a></h3>
+        <p><strong>July 2022 – Feb 2023</strong></p>
+        <p>Designed a dual-authentication system by integrating RFID-based user verification with facial recognition, aimed at reducing unauthorized access in physical security environments. Programmed facial recognition using Python, Dlib, and CNN embeddings, enabling the system to detect and encode facial features with around 78% accuracy, even under variable lighting and angles. Deployed the solution on Raspberry Pi, ensuring fast and reliable edge processing without needing cloud support, and successfully demonstrated improved security performance compared to single-factor authentication systems.</p>
+      
+      <div class="project-container" data-aos="fade-up">
+      <div class="project-text">
+        <h3><a href="https://github.com/RKerur2910/IOT-Based-Smoke-Gas-and-Fire-Detection-System" target="_blank">IOT Based Smoke And Fire Detection Based System</a></h3>
+        <p><strong>Jan 2022 – May 2022</strong></p>
+        <p>Designed and implemented a secure communication protocol enabling real-time data exchange between distributed sensors and a central monitoring system, incorporating end-to-end encryption 
+          to ensure data confidentiality and integrity. Developed and trained an Isolation Forest anomaly detection model using Python and scikit-learn, successfully reducing false positive rates by 30%.
+          Created a user-friendly monitoring dashboard with OAuth 2.0 authentication and role-based access control, enhancing system security and improving authorized user access management.</p>
+          
+      </div>
+   </div>
+ </section>
+
+  <section id="certification" class="section" data-aos="fade-up">
+    <h2>Certification</h2>
+    <h3>Introduction to Computer Science</h3>
+    <p>C, Python, Arrays, Hash Tables, Linked Lists, Stacks, Queues, Trees</p>
+    <img src="CS50 Certificate.jpg" alt="Certification Image" class="image" />
+    <h3>Introduction to Data Science in Python</h3>
+    <p>Data Cleaning & Preprocessing, Exploratory Data Analysis (EDA), Statistic Modeling, Regression</p>
+    <img src="Data_Science.jpg" alt="Certification Image" class="image" />
+    <h3>Machine Learning For All</h3>
+    <p>Python, Scikit-learn, NumPy, Pandas, K-Means Clustering, Supervised & Unsupervised Learning</p>
+    <img src="Machine Learning For All.png" alt="Certification Image" class="image" />
+  </section>
+
+
+  <footer>
+    <p>© 2025 Riya Kerur • <a href="https://www.linkedin.com/in/riya-kerur/" target="_blank">LinkedIn</a> • <a href="https://usujjwals.github.io/ujjwalsharma.github.io/" target="_blank">GitHub Portfolio</a></p>
+  </footer>
+
+  <!-- Theme toggle and AOS initialization scripts -->
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    toggleBtn.onclick = () => document.body.classList.toggle("dark");
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>  <!-- Initialize AOS animations:contentReference[oaicite:3]{index=3} -->
+</body>
+</html>
